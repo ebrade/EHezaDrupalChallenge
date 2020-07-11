@@ -1,0 +1,2 @@
+To add OG module:
+	command: ddev composer require drupal/og
