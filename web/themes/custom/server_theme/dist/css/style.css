@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+  font-family: "Libre Franklin", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  position: relative;
+}
+.layout-container {
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 170px;
+  /* height of your footer */
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.region-content, .region-header, .region-footer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 4%;
+}
+header {
+  background-color: #05538F;
+  padding: 40px 0;
+  margin-bottom: 20px;
+}
+header .block-system-branding-block {
+  display: flex;
+}
+header a.site-logo {
+  text-decoration: none;
+}
+header .site-name {
+  font-size: 2em;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .site-name a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer {
+  background-color: #FFEBD1;
+  padding: 40px 0;
+  margin-top: 20px;
+}
