@@ -1,14 +1,1 @@
-/**
- * @file
- */
-
-(function ($, Drupal) {
-
-  /**
-   * Your script goes here.
-   */
-  Drupal.behaviors.themeServerGeneral = {
-    attach: function (context, settings) {
-    }
-  };
-})(jQuery, Drupal);
+(function(r,e){e.behaviors.themeServerGeneral={attach:function(e,r){}}})(jQuery,Drupal);
